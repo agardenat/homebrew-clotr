@@ -1,27 +1,27 @@
 class Clotr < Formula
-  desc "Read-only multi-model agent CLI for Kubernetes, Cloudera and MCP diagnostics"
+  desc "Read-only multi-model agent CLI for infrastructure diagnostics"
   homepage "https://github.com/agardenat/clotr"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/agardenat/clotr/releases/download/v0.1.0/clotr_0.1.0_darwin_arm64.tar.gz"
-      sha256 "5c33e1b31c0dab7c159b42364d6df82cee1702f7362a62c364bb21f576e8b3b5"
+      sha256 "568abd3ace34e3f8fd8f6579a710cb7e8d9792ef52a7c7574f7a7f6afbb89432"
     end
     on_intel do
       url "https://github.com/agardenat/clotr/releases/download/v0.1.0/clotr_0.1.0_darwin_amd64.tar.gz"
-      sha256 "1f03c827c5fc5e0a391d07b6b867e9bc114fdf970f91bf0d3527fa2de4fbdd3a"
+      sha256 "3daab1fd550628160681ed0cfe44dda87fdc23e4d5ad7ab1179ae91003b3f1ff"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/agardenat/clotr/releases/download/v0.1.0/clotr_0.1.0_linux_arm64.tar.gz"
-      sha256 "1d833e2e8ccdc46abd39f22bb7c3e5b00d97ec21692106e8b68341ddc356b56a"
+      sha256 "cc8fae805f2201bf6ac2f9ae1a39654e9833363f3e66dd8996990fabb5a42857"
     end
     on_intel do
       url "https://github.com/agardenat/clotr/releases/download/v0.1.0/clotr_0.1.0_linux_amd64.tar.gz"
-      sha256 "d076e401de9c28c97fdd5097b873b3d86f70d0ca31610a72309a4b3dc5812df1"
+      sha256 "5f3c28e18f49741768396c041e26a16e37849e5304f78e19ae439cd6bcb6857b"
     end
   end
 
