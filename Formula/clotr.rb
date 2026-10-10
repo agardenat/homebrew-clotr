@@ -6,22 +6,22 @@ class Clotr < Formula
   on_macos do
     on_arm do
       url "https://github.com/agardenat/clotr/releases/download/v0.1.0/clotr_0.1.0_darwin_arm64.tar.gz"
-      sha256 "568abd3ace34e3f8fd8f6579a710cb7e8d9792ef52a7c7574f7a7f6afbb89432"
+      sha256 "707ee795e2f2ce10205a2f984d6b641f22c2b29bab2b396229b5d0d79fd39660"
     end
     on_intel do
       url "https://github.com/agardenat/clotr/releases/download/v0.1.0/clotr_0.1.0_darwin_amd64.tar.gz"
-      sha256 "3daab1fd550628160681ed0cfe44dda87fdc23e4d5ad7ab1179ae91003b3f1ff"
+      sha256 "55ad1d0100909d397615051bf37aaadefb7b6c0ff4ea037cdbd5238bcff45d51"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/agardenat/clotr/releases/download/v0.1.0/clotr_0.1.0_linux_arm64.tar.gz"
-      sha256 "cc8fae805f2201bf6ac2f9ae1a39654e9833363f3e66dd8996990fabb5a42857"
+      sha256 "e4bf1813294c486864037cd21ac98097ebd53df7558a56303a73bbe1bf98865a"
     end
     on_intel do
       url "https://github.com/agardenat/clotr/releases/download/v0.1.0/clotr_0.1.0_linux_amd64.tar.gz"
-      sha256 "5f3c28e18f49741768396c041e26a16e37849e5304f78e19ae439cd6bcb6857b"
+      sha256 "bf4a85f6749396c5b33158dbc8511e19ed5e777807bee712cf681f09540d7037"
     end
   end
 
