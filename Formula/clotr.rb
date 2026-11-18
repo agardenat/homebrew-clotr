@@ -4,32 +4,32 @@ class Clotr < Formula
   license "Apache-2.0"
 
   bottle do
-    root_url "https://github.com/agardenat/clotr/releases/download/v0.79.1"
-    sha256 cellar: :any_skip_relocation, arm64_ventura: "ccb5eccf46e064d951631f80d726eab4aab8989eb75e47be700b9213a7ec8e49"
-    sha256 cellar: :any_skip_relocation, ventura:       "aa215414048f09aa9d6ab4f224e77f1cf78ec881b16049c9322a704689a7bd73"
-    sha256 cellar: :any_skip_relocation, arm64_linux:  "fac26195302b6486aa763d9366a7de807bd826c0f069400982bb1e410601733e"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "7fa03af6125043a6d9df28d32c4adee206478ef7507343a0f2f8e2360ce08618"
+    root_url "https://github.com/agardenat/clotr/releases/download/v0.79.2"
+    sha256 cellar: :any_skip_relocation, arm64_ventura: "8aaef2ef165b00f21c2af0d6ca40e1293e002b43a9078726e73cef3a6a52fb5a"
+    sha256 cellar: :any_skip_relocation, ventura:       "32c1f17f51cfb3724fd56b6b29b0b7195860d2975854a01a29afe7062e85e4f4"
+    sha256 cellar: :any_skip_relocation, arm64_linux:  "180590b6f816461209a0e0e2f437f08372ef76e58a757e74f48a1058d3102dcf"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "33fd2e21c5f858d50b0c9ea43cc96ac758d76c089003716b921e2dd120930f45"
   end
 
   on_macos do
     on_arm do
-      url "https://github.com/agardenat/clotr/releases/download/v0.79.1/clotr_0.79.1_darwin_arm64.tar.gz"
-      sha256 "2d89853a7253d770a51287ee63cdc2e9c91d7b50b70ec3f6fe7c8f8b9df0d2aa"
+      url "https://github.com/agardenat/clotr/releases/download/v0.79.2/clotr_0.79.2_darwin_arm64.tar.gz"
+      sha256 "2e1b18f4ec0707c5c2960f3b3de34cfe92c66aac95e67c062fdf7e10711b3617"
     end
     on_intel do
-      url "https://github.com/agardenat/clotr/releases/download/v0.79.1/clotr_0.79.1_darwin_amd64.tar.gz"
-      sha256 "5dcbd3752bb4e91fd183e5f0375ebcfb3fb480c62c3209d80d78d3e5a84e3c03"
+      url "https://github.com/agardenat/clotr/releases/download/v0.79.2/clotr_0.79.2_darwin_amd64.tar.gz"
+      sha256 "0d80ef36a7ec68e943bce5798ff24bafb19baa6004903f86501df3466ffd1142"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/agardenat/clotr/releases/download/v0.79.1/clotr_0.79.1_linux_arm64.tar.gz"
-      sha256 "e3b93b5401de011da6d03926e0ad200243fff913fa9c5b413b3ae94032f2cafe"
+      url "https://github.com/agardenat/clotr/releases/download/v0.79.2/clotr_0.79.2_linux_arm64.tar.gz"
+      sha256 "75ae11e075aec5633075f30ec3bad94ad2236bd91aeabdbf9b7a09a1e9b53616"
     end
     on_intel do
-      url "https://github.com/agardenat/clotr/releases/download/v0.79.1/clotr_0.79.1_linux_amd64.tar.gz"
-      sha256 "6710ca149d920387e56918e081cee0e225f63388782972f201effefd9be9ec8c"
+      url "https://github.com/agardenat/clotr/releases/download/v0.79.2/clotr_0.79.2_linux_amd64.tar.gz"
+      sha256 "dfa96f9a9517b26788e1934222a0f111223ed9002af8a3368db0f415e9e9d03c"
     end
   end
 
